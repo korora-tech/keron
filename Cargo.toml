@@ -81,7 +81,7 @@ which = "=8.0.4"
 # diff drift output and by `keron apply` for the verbose-mode body
 # diffs (template `content` and shell `script`) under the
 # `--verbose-will-reveal-sensitive-content` flag.
-similar = "=3.1.1"
+similar = "=3.1.2"
 # Synchronous LSP transport + protocol types (the rust-analyzer
 # stack). Chosen over `tower-lsp` to avoid pulling an async runtime
 # into a workspace that has none; keron modules are small enough
