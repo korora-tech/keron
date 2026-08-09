@@ -42,13 +42,13 @@ jobs:
           shared-key: mutants-${{ matrix.os }}
 
       - name: Install cargo-nextest
-        uses: taiki-e/install-action@fd2f5e3d644b484055ebf4268f474c565f148f25 # v2
+        uses: taiki-e/install-action@91ddec75689c4c78665b598d188dc821c5a43e5c # v2
         with:
           tool: nextest@0.9.136
           fallback: none
 
       - name: Install cargo-mutants
-        uses: taiki-e/install-action@fd2f5e3d644b484055ebf4268f474c565f148f25 # v2
+        uses: taiki-e/install-action@91ddec75689c4c78665b598d188dc821c5a43e5c # v2
         with:
           tool: cargo-mutants@27.1.0
           fallback: none
